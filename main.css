@@ -1,0 +1,338 @@
+*{
+    box-sizing: border-box;
+}
+.parent{
+    position: relative;
+    width: 100%;
+    height: 150vh;
+}
+.head{
+    color: gold;
+        text-transform: capitalize;
+        text-align: center;
+        font-size: 40px;
+        margin: 50px auto;
+        font-weight: bold;
+}
+.one{
+    color: silver;
+        text-transform: capitalize;
+        text-align: center;
+        font-size: 30px;
+        margin: -35px auto;
+}
+.mazen{
+    font-size: 50px;
+        color: silver;
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        top: 125%;
+        transform: translateX(-50%);
+}
+.image-one{
+width: 200px;
+width: 200px;
+    height: 200px;
+    border: 9px solid #ddd;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    left: 85%;
+    top: 20%;
+}
+.image-two{
+    width: 200px;
+        height: 200px;
+        border: 9px solid #ddd;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        position: absolute;
+        left: 15%;
+        top: 20%;
+}
+.head-one{
+    color: silver;
+        text-transform: capitalize;
+        position: absolute;
+        left: 87.5%;
+        top: 35%;
+        font-weight: bold;
+        text-align: center;
+        font-size: 40px;
+        letter-spacing: 2px;
+}
+.head-two{
+    color: gold;
+        text-transform: capitalize;
+        position: absolute;
+        left: 17.5%;
+        top: 35%;
+        font-weight: bold;
+        text-align: center;
+        font-size: 40px;
+        letter-spacing: 2px;
+}
+.days{
+    width: 200px;
+        height: 200px;
+        border: 1px solid #ddd;
+        position: absolute;
+        left: 35%;
+        top: 22%;
+}
+.days .first{
+        color: gold;
+        position: absolute;
+        left: 50%;
+        top: 15%;
+        transform: translateX(-50%);
+        font-size: 55px;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+}
+.days .first::after{
+    content: "";
+        width: 140%;
+        height: 1px;
+        background-color: silver;
+        position: absolute;
+        left: -20%;
+        top: 90px;
+}
+.days .second{
+    color:silver;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    top: 80%;
+    font-size: 25px;
+}
+.hours{
+    width: 200px;
+        height: 200px;
+        border: 1px solid #ddd;
+        position: absolute;
+        left: 65%;
+        top: 22%;
+}
+.hours .first{
+        color: gold;
+        position: absolute;
+        left: 50%;
+        top: 15%;
+        transform: translateX(-50%);
+        font-size: 55px;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+}
+.hours .first::after{
+    content: "";
+        width: 140%;
+        height: 1px;
+        background-color: silver;
+        position: absolute;
+        left: -20%;
+        top: 90px;
+}
+.hours .second{
+    color:silver;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    top: 80%;
+    font-size: 25px;
+}
+.get{
+        text-transform: capitalize;
+        color: gold;
+        position: absolute;
+        left: 60%;
+        top: 40%;
+        transform: translateX(-60%);
+        -webkit-transform: translateX(-60%);
+        -moz-transform: translateX(-60%);
+        -ms-transform: translateX(-60%);
+        -o-transform: translateX(-60%);
+        font-size: 35px;
+}
+.minutes {
+    width: 200px;
+        height: 200px;
+        border: 1px solid #ddd;
+        position: absolute;
+        left: 35%;
+        top: 45%;
+}
+
+.minutes .first {
+    color: gold;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translateX(-50%);
+    font-size: 55px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.minutes .first::after {
+    content: "";
+    width: 140%;
+    height: 1px;
+    background-color: silver;
+    position: absolute;
+    left: -20%;
+    top: 90px;
+}
+
+.minutes .second {
+    color: silver;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    top: 80%;
+    font-size: 25px;
+}
+.seconds {
+    width: 200px;
+        height: 200px;
+        border: 1px solid #ddd;
+        position: absolute;
+        left: 65%;
+        top: 45%;
+}
+
+.seconds .first {
+    color: gold;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translateX(-50%);
+    font-size: 55px;
+}
+
+.seconds .first::after {
+    content: "";
+    width: 140%;
+    height: 1px;
+    background-color: silver;
+    position: absolute;
+    left: -20%;
+    top: 90px;
+}
+
+.seconds .second {
+    color: silver;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    top: 80%;
+    font-size: 25px;
+}
+.bride{
+text-transform: capitalize;
+    color: gold;
+    position: absolute;
+    left: 20%;
+    top: 65%;
+    font-size: 25px;
+    z-index: 2;
+    background-color: #fff;
+}
+.bride-back{
+    width: 250px;
+        background-color: silver;
+        height: 2px;
+        z-index: 1;
+        position: absolute;
+        left: 13.5%;
+        top: 66%;
+}
+.groom{
+text-transform: capitalize;
+    color: silver;
+    position: absolute;
+    left: 88%;
+    top: 65%;
+    font-size: 25px;
+    z-index: 2;
+    background-color: #fff;
+}
+.groom-back{
+    width: 250px;
+        background-color: gold;
+        height: 2px;
+        z-index: 1;
+        position: absolute;
+        left: 81.5%;
+        top: 66%;
+}
+.icons-left{
+    width: 300px;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        left: 11%;
+        top: 70%;
+        /* border: 1px solid silver; */
+        color: silver;
+}
+.icons-right{
+width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 79%;
+    top: 70%;
+    /* border: 1px solid silver; */
+    color: gold;
+}
+.text-left{
+position: absolute;
+    left: 6%;
+    top: 75%;
+    text-transform: capitalize;
+    color: gold;
+    text-align: center;
+}
+.text-right{
+    position: absolute;
+        left: 73%;
+        top: 75%;
+        text-transform: capitalize;
+        color: silver;
+        text-align: center;
+    }
